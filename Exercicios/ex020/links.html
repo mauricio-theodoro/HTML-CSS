@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a
+        {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited
+        {
+            color: blue;
+        }
+        a:hover
+        {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active
+        {
+            color: blueviolet;
+        }
+        .especial
+        {
+            background-color: violet;
+        }
+        a.especial::before
+        {
+            content: '⇝';
+            color: black;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        .especial::after
+        {
+            content: '⇜';
+            color: black;
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/BOT155" target="_blank">Repositorio Github</a></li>
+        <li><a href="https://www.instagram.com/mtheodoroneto" target="_blank">Instagram</a></li>
+        <li><a href="https://www.facebook.com/mauricio.antonio.376" target="_blank" class="especial">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/mauricio-theodoro-98443598/" target="_blank" class="especial">LinkedIn</a></li>
+        <li><a href="https://studio.youtube.com/channel/UCnMP9YTFSoFpItXY2SfLQiA" target="_blank">Youtube</a></li>
+        <li><a href="https://google.com.br" target="_blank">Google</a></li>
+    </ul>
+    
+</body>
+</html>

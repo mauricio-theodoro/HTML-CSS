@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(99, 103, 107);
+    font-size: 1em;
+}
+@font-face {
+    font-family: CottonCloud;
+    src: url('Cotton Cloud.ttf') format('truetype'); 
+    font-size: normal;
+    font-style: normal;
+}
+h1
+{
+    font-size: 2.5em;
+    font-family: 'CottonCloud', Times, serif;
+    color: rgb(22, 119, 247);
+}
+.segunda
+{
+    color: aqua;
+}
+header
+{
+
+    text-align: center;
+    width: 600px;
+    background-color: rgba(45, 191, 248, 0.712);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+nav
+{
+    padding: 3px;
+    margin: 0px;
+    box-shadow: 0px 0px 12px rgba(10, 10, 10, 0.459);
+    border-radius: 10px;
+    
+    
+}
+nav > a
+{
+    font-family: 'CottonCloud', Times, serif;
+    font-size: 1.5em;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav> a:hover
+{
+    text-decoration: underline;
+}
+main
+{
+    background-color: rgba(45, 191, 248, 0.712);
+
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #11141880;
+}
+footer
+{
+    text-align: center;
+    background-color: rgba(45, 191, 248, 0.712);
+    width: 611px;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 10px;
+}
+footer > p
+{
+    margin: 0px;
+    
+}
+article
+{
+    background-color: aquamarine;
+    padding: 5px;
+}

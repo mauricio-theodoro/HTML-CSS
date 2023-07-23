@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho de Imagens HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <audio src="audios/Lawrence - TrackTribe.mp3" controls autoplay></audio>
+    outra maneira de fazer a implementação do audio.
+    <audio preload="auto" autoplay controls>
+        <source src="audios/Lawrence - TrackTribe.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso queira baixar a musica cliquei <a href="audios/Lawrence - TrackTribe.mp3">aqui</a></p>
+</body>
+</html>
